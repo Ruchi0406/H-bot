@@ -10,10 +10,9 @@ Contact: [Telegram](https://t.me/devggn)
 
 **Update**: This bot is updated with login functionalities, custom rename tag adding, log group, caption changing and and many more scroll down to last to see the latest update i.e. on 18 June 2024.
 
-## Try Live Bot
-Bot link -https://t.me/advance_content_saver_bot
+### Try Live Bot based on `main` branch (my code, not on `leakrepo` branch)
+Bot link - [Advance Content Saver Bot](https://t.me/advance_content_saver_bot)
 ---
-### A stable telegram bot to get restricted messages with custom thumbnail support , made by [TEAM SPY](https://t.me/devggn) This bot can run in channels directly.
 
 - works for both public and private chats
 - Custom thumbnail support for Pvt medias
@@ -27,6 +26,9 @@ Bot link -https://t.me/advance_content_saver_bot
 - `/setchat` directly upload in channel or group
 
 ## Deploying Guide - [TEAM SPY](https://t.me/devggn)
+
+**Note** : This repository contains three branches `leakrepo` as default branch `main` as main branch and `standalone` | `main` branch codes and `standalone` branch code written by me while `leakrepo` branch code is leaked premium source.
+So before deploying select branch as per your needs..
 
 ### How to get required vars
  
@@ -48,6 +50,9 @@ Easy Method:
 ```
 sudo apt update
 sudo apt install ffmpeg git python3-pip
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm install v18 #nodejs 18+
 git clone your_repo_link
 cd you_repo_name
 pip3 install -r requirements.txt
@@ -77,12 +82,10 @@ Visit [Terms](https://github.com/devgaganin/Save-Restricted-Content-Bot-Repo/blo
 - Added /add_premium and /remove_premium along with parameters of `user_id` and `time` for the period of premium subscription.
 - All old features along with `button` handler
 
-## Important Note
-
-**Note**: Changing the terms and commands doesn't magically make you a developer. Real development involves understanding the code, writing new functionalities, and debugging issues, not just renaming things. If only it were that easy!
 
 ## Contributers
-My group members contact... Join @devggn to know them.
+My group members ... Join @devggn to know them.
+Credit goes to them not to me | Special thanks to Yash for leaking this Repo
 
 Thanks!
 
