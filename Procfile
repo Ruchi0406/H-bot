@@ -1,1 +1,1 @@
-worker: python -m Restriction
+web: python -m Restriction
