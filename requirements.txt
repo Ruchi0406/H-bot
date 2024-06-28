@@ -10,4 +10,4 @@ telegraph
 flask
 gunicorn==20.1.0
 pymongo[srv]==3.12.3
-
+moviepy
