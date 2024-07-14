@@ -53,4 +53,3 @@ except Exception as e:
     sys.exit(1)
 
 sex = TelegramClient('sexrepo', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-
